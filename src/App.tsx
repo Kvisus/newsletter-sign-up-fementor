@@ -49,7 +49,7 @@ function App() {
         <form action="" className="form">
           <div className="labels">
             <label className="label-email">Email adress</label>
-            <label className="label-error hidden">Valid email required</label>
+            <label className={`label-error ${emailCheck()?'hidden':''}`}>Valid email required</label>
           </div>
           <input
             placeholder="email@company.com"

@@ -127,6 +127,7 @@ li > p {
 .label-email{
   font-weight: bolder;
 }
+
 .labels{
   display: flex;
   justify-content: space-between;
