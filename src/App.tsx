@@ -11,8 +11,8 @@ const listYes = (
 function App() {
   const mobileWidth = 600;
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > mobileWidth);
-  const [subbed, setSubbed] = useState(true);
-  const [email, setEmail] = useState("hellothere@mail.coimn");
+  const [subbed, setSubbed] = useState(false);
+  const [email, setEmail] = useState("");
 
   const updateMedia = () => {
     setIsDesktop(window.innerWidth > mobileWidth);
