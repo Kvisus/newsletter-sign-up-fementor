@@ -4,7 +4,7 @@ import Success from "./Success";
 const listYes = (
   <img
     className="yesPic"
-    src="../public/icon-list.svg"
+    src="icon-list.svg"
   />
 );
 
@@ -33,8 +33,8 @@ function App() {
         className="main-pic"
         src={`${
           isDesktop
-            ? "../public/illustration-sign-up-desktop.svg"
-            : "../public/illustration-sign-up-mobile.svg"
+            ? "/illustration-sign-up-desktop.svg"
+            : "/illustration-sign-up-mobile.svg"
         }`}
         alt="top-picture"
       />
