@@ -15,7 +15,7 @@ const Success = ({ email, isDesktop, setSubbed, subbed, setEmail }: Props) => {
     <div className="success-frame main-frame">
       <div className="success">
         <img
-          src="../newsletter-sign-up-with-success-message-main/assets/images/icon-success.svg"
+          src="../public/icon-success.svg"
           alt="success-icon"
           className="yesPic"
         />
